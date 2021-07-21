@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__left {
+  flex: 0.5;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  color: gray;
+  align-items: center;
+}
+
+.header__left > input {
+  border: none;
+  width: 100%;
+}
+
+.header__right > h4 {
+  margin-left: 10px;
+}
+
+.header__searchInput{
+  outline: none;
+}
+
+.search__results{
+  margin-top: 250px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1000;
+  height: 200px;
+  overflow-y:scroll;
+}

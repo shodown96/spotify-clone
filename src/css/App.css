@@ -1,0 +1,49 @@
+.albums, .artists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.album, .artist{
+    border-radius: 2px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.album > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+  }
+  
+.artist{
+    height: 15vw;
+    width: 15vw;
+    margin: 20px;
+    padding: 20px;
+}
+
+.artist > img {
+    height: 100%;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width:100%;
+    margin-bottom: 10px;
+  }
+
+svg{
+    width:50%
+}
+
+.artist__icon, .album__icon{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
