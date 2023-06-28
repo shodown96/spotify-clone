@@ -1,14 +1,14 @@
 import SpotifyWebApi from "spotify-web-api-js";
-declare var window: any
+// declare var window: any
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
 export const spotify = new SpotifyWebApi();
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = "3477d02a36904c6eb649435928a94330";
-const redirectUri = `${window.location.origin}`;
+// const redirectUri = `${window.location.origin}`;
 // const redirectUri = "http://localhost:3000/";
-// const redirectUri = "https://spotify-clone-phi.vercel.app/";
+const redirectUri = "https://spotify-clone-phi.vercel.app/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
