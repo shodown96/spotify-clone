@@ -45,6 +45,7 @@ Navigation
 Play/pause when in playlist/album page
 Display Playlist/Album/Category color & artwork
 
+Artists pages
 
 HEADLESS UI: Menu:
 User navigation
@@ -57,5 +58,7 @@ device mode
 maximize
 song playing details
 Title bar name with song
+
+Others:
 Play from the app itself
 Footer credits
