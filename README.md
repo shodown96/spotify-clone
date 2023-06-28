@@ -32,3 +32,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# TODOS:
+Play functionality
+Library sorting
+Highlight item on the table if its playing
+Edit playlists
+
+Navbar fluidity and other functionalities:
+Navigation
+Play/pause when in playlist/album page
+Display Playlist/Album/Category color & artwork
+
+
+HEADLESS UI: Menu:
+User navigation
+Hijack right click
+
+Footer full functionality:
+queue
+player duration
+device mode
+maximize
+song playing details
+Title bar name with song
+Play from the app itself
+Footer credits
