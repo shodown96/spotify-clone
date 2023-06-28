@@ -1,5 +1,5 @@
 import SpotifyWebApi from "spotify-web-api-js";
-
+declare var window: any
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
 export const spotify = new SpotifyWebApi();
 
@@ -23,7 +23,7 @@ export const getTokenFromResponse = () => {
   return window.location.hash
     .substring(1)
     .split("&")
-    .reduce((initial: any, item) => {
+    .reduce((initial: any, item:any) => {
       var parts = item.split("=");
       initial[parts[0]] = decodeURIComponent(parts[1]);
 
