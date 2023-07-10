@@ -101,6 +101,8 @@ function Login() {
                     LOG IN TO SPOTIFY
                 </button>
             </div>
+
+            <div className='absolute bottom-5 right-5 text-gray-500'>W.I.P</div>
         </div>
     )
 }

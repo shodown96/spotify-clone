@@ -16,6 +16,8 @@ export default function Layout({ children }: any) {
   useEffect(() => {
     if (user?.token) {
       router.push(config.PATHS.Home)
+    } else {
+      router.push(config.PATHS.Login)
     }
   }, [])
 
